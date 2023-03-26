@@ -1,0 +1,5 @@
+message("[cmake] ${CMAKE_CURRENT_LIST_DIR}")
+
+list(APPEND SOURCES ${CMAKE_CURRENT_LIST_DIR}/Module1A.cpp)
+
+list(APPEND HEADERS ${CMAKE_CURRENT_LIST_DIR}/Module1A.h)
